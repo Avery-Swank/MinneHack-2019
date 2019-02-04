@@ -1,0 +1,67 @@
+.tile {
+  background-color: white;
+  width: 800px;
+  height: 15em;
+  margin: 1em;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+}
+
+.tile-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+  width: 20em;
+  height: inherit;
+  float: left;
+}
+
+.tile-info {
+  text-align: left;
+  height: inherit;
+  padding: 1em;
+  margin-left: 20em; 
+}
+
+.filters {
+  float: left;
+  padding: 20px;
+}
+
+.postings {
+  width: 80%;
+  padding: 20px;
+  display:inline-block;
+  text-align: left;
+  width: 80%;
+  padding: 10px;
+}
+
+.price-container {
+  color: white;
+  padding: 5px;
+  background-color: #367C2B;
+  border-radius: 15%;
+  display:inline-block;
+}
+
+h3 {
+  margin-right: 130px;
+}
+
+agm-map {
+  position: absolute;
+  right: 10px;
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+}
+
+p {
+  font-family: sans-serif;
+  color: #777;
+}
+
+a { color:black }

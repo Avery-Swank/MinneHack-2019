@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+
+.column {
+    flex: 5%;
+    max-width: 25%;
+    padding: 50px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}

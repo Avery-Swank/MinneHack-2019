@@ -1,0 +1,82 @@
+<h1 align="center">Current Listings</h1>
+<h3 align="right" margin-right="100">Map Search</h3>
+
+<div class="filter-bar">
+</div>
+<div align="right">
+  <div class="postings">
+    <a href="listing" style="text-decoration: none">
+      <div class='tile'>
+        <img class='tile-img' style="background-image: url(https://www.deere.com/assets/images/region-4/products/tractors/4-wheel-drive-tractors/4wd/9520r/9520r_r3c006121_large_ca3e2bf3111189505378a8c3e3831b940663d29a.jpg);" />
+        <div class='tile-info'>
+          <h1>John Deere 9520R</h1>
+          <div class="price-container">
+            <h2>$340/Day</h2>
+          </div>
+          <h2>Farmington, MN (.5 mi away)</h2>
+        </div>
+      </div>
+    </a>
+    <a href="listing" style="text-decoration: none">
+      <div class='tile'>
+        <img class='tile-img' style="background-image: url(https://www.deere.com/assets/images/region-4/products/tractors/utility-tractors/3-family-compact-utility-tractor/3038e-2017/3038e_2017_r4g032901_large_249637d46a3f958ff373b72422a7233442858d77.jpg);" />
+        <div class='tile-info'>
+          <h1>John Deere 3038E</h1>
+          <div class="price-container">
+            <h2>$40/Day</h2>
+          </div>
+            <h2>Jordan, MN (45 mi away)</h2>
+        </div>
+      </div>
+    </a>
+    <a href="listing" style="text-decoration: none">
+      <div class='tile'>
+        <img class='tile-img' style="background-image: url(https://www.deere.com/assets/images/region-4/products/tractors/utility-tractors/2-family-compact-utility-tractor/2038r/2038r_cut_studio_r4a067609_large_564acbe94b75c6f7806270d1645cc3b6711bdc78.jpg);" />
+        <div class='tile-info'>
+          <h1>John Deere 2038R</h1>
+          <div class="price-container">
+            <h2>$134/Day</h2>
+          </div>
+          <h2>Minneapolis, MN (60.2 mi away)</h2>
+        </div>
+      </div>
+    </a>
+  </div>
+
+<!-- Google Maps-->
+<agm-map [latitude]="41.8780" [longitude]="-93.09779" >
+    <!-- Markers Examples -->
+    <agm-marker [latitude]="41.8780" [longitude]="-93.0977">
+      <agm-info-window>Tractor Here</agm-info-window>
+    </agm-marker>
+    <agm-marker [latitude]="40.3280" [longitude]="-93.1977">
+      <agm-info-window>Combine Here</agm-info-window>
+    </agm-marker>
+    <agm-marker [latitude]="41.8560" [longitude]="-92.0977">
+        <agm-info-window>Tractor Here</agm-info-window>
+    </agm-marker>
+    <agm-marker [latitude]="39.8780" [longitude]="-93.2307">
+        <agm-info-window>Combine Here</agm-info-window>
+    </agm-marker>
+    <agm-marker [latitude]="42.8780" [longitude]="-94.3407">
+        <agm-info-window>Combine Here</agm-info-window>
+    </agm-marker>
+  </agm-map>
+
+<div class="filters" style="text-align:left; font-size:18px;">
+  <h1>Filters:</h1>
+
+    <h3>Distance:</h3>
+    <input type="checkbox" name="10_miles" value="Bike" font-size=18>10 miles<br>
+    <input type="checkbox" name="50_miles" value="Bike">50 miles<br>
+    <input type="checkbox" name="100_miles" value="Bike">100 miles<br>
+
+    <h3>Price</h3>
+    <input type="radio" name="high_low" value="Bike" checked>High to low<br>
+    <input type="radio" name="high_low" value="Bike">Low to high<br>
+
+  </div>
+</div>
+<div style="margin-left:550px;">
+  <img src="assets/images/next_page.png" style="width: 30%; height: 30%;">
+</div>

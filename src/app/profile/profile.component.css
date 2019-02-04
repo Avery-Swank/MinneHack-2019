@@ -1,0 +1,9 @@
+
+.profile {
+    float: left;
+}
+
+.attributes {
+    float: right;
+    margin: 30px;
+}
